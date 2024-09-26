@@ -159,33 +159,6 @@ updates:
       - 'in: build'
     ignore:
       - dependency-name: sjohnr/*
-
-  - package-ecosystem: npm
-    target-branch: docs-build
-    directory: /
-    schedule:
-      interval: weekly
-
-  - package-ecosystem: npm
-    target-branch: main
-    directory: /docs
-    schedule:
-      interval: weekly
-  - package-ecosystem: npm
-    target-branch: 6.3.x
-    directory: /docs
-    schedule:
-      interval: weekly
-  - package-ecosystem: npm
-    target-branch: 6.2.x
-    directory: /docs
-    schedule:
-      interval: weekly
-  - package-ecosystem: npm
-    target-branch: 5.8.x
-    directory: /docs
-    schedule:
-      interval: weekly
   - package-ecosystem: npm
     target-branch: main
     directory: /docs
