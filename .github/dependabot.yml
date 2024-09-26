@@ -5,10 +5,10 @@ registries:
     url: https://repo.spring.io/milestone
 updates:
   - package-ecosystem: gradle
-    target-branch: 5.8.x
+    target-branch: main
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
       time: '03:00'
       timezone: Etc/UTC
     labels:
@@ -83,7 +83,7 @@ updates:
     target-branch: main
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
       time: '03:00'
       timezone: Etc/UTC
     labels:
@@ -163,5 +163,5 @@ updates:
     target-branch: main
     directory: /docs
     schedule:
-      interval: daily
+      interval: weekly
       time: '08:47'
